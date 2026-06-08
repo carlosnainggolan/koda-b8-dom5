@@ -15,23 +15,6 @@
         </span>
     </form>
 
-    <script>
-        let password = document.getElementById("password");
-        let toggler = document.getElementById("toggle-password");
-
-        toggler.addEventListener("click", function hideShowPassword() {
-            if (password.type === "password") {
-                password.setAttribute("type", "text");
-                toggler.classList.remove("bi-eye-slash");
-                toggler.classList.add("bi-eye");
-            } else {
-                password.setAttribute("type", "password");
-                toggler.classList.remove("bi-eye");
-                toggler.classList.add("bi-eye-slash");
-            }
-        }); 
-
-        
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
