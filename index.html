@@ -8,12 +8,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form class="input-field">
+    <nav class="navbar">
+        <a href="#" class="logo">Carlos Nainggolan</a>
+        <div class="toggle-menu" id="toggle-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <ul class="navbar-nav" id="navbar-nav">
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="#" class="nav-link">About</a></li>
+            <li><a href="#" class="nav-link">Portofolio</a></li>
+            <li><a href="#" class="nav-link">Blog</a></li>
+            <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form class="input-field">
+            
         <input type="password" id="password" placeholder="password">
         <span>
             <i id="toggle-password" class="bi bi-eye-slash" style="cursor: pointer;"></i>
         </span>
     </form>
+    </main>
+    
 
     <script src="script.js"></script>
 </body>
