@@ -14,3 +14,10 @@ function hideShowPassword() {
         toggler.classList.add("bi-eye-slash");
     }
 }
+
+const toggleMenu = document.getElementById('toggle-menu')
+const navbar = document.getElementById('navbar-nav')
+
+toggleMenu.addEventListener('click', function () {
+    navbar.classList.toggle('show')
+})
